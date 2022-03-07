@@ -1,0 +1,146 @@
+[33m
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                                                                                                               *
+*  The "TRACE" log level might print some sensitive data like secrets or access tokens in request URLs. Be careful when you share this output.  *
+*                                                                                                                                               *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+[39mLooking for project in 'D:\K19\VueJS\CLI\NativeScript\endgame'
+Project directory is 'D:\K19\VueJS\CLI\NativeScript\endgame'.
+Initializing project identifiers. Config:  {
+  id: 'org.nativescript.application',
+  appPath: 'src',
+  appResourcesPath: 'App_Resources',
+  android: { v8Flags: '--expose_gc', markingMode: 'none' }
+}
+Loading extensions.
+Collecting system information...
+System information:
+{
+  "platform": "win32",
+  "shell": "C:\\Windows\\system32\\cmd.exe",
+  "os": "Windows 10 Pro 6.3.22000",
+  "procArch": "x64",
+  "nodeVer": "14.17.3",
+  "npmVer": "6.14.13",
+  "nodeGypVer": null,
+  "nativeScriptCliVersion": "8.0.2",
+  "gitVer": null,
+  "dotNetVer": "4.8.04161",
+  "javacVersion": null,
+  "javaVersion": null,
+  "javaPath": null,
+  "adbVer": null,
+  "androidInstalled": false,
+  "monoVer": null,
+  "gradleVer": null,
+  "isAndroidSdkConfiguredCorrectly": false,
+  "xcodeprojLocation": null,
+  "itunesInstalled": false,
+  "isCocoaPodsWorkingCorrectly": false,
+  "isCocoaPodsUpdateRequired": false,
+  "pythonInfo": null
+}
+Current CLI version:  8.0.2
+Project dir from hooksArgs is: undefined.
+Hooks directories: [ 'D:\\K19\\VueJS\\CLI\\NativeScript\\endgame\\hooks' ]
+BeforeHookName for command resolveCommand is before-resolveCommand
+Project dir from hooksArgs is: undefined.
+Hooks directories: [ 'D:\\K19\\VueJS\\CLI\\NativeScript\\endgame\\hooks' ]
+AfterHookName for command resolveCommand is after-resolveCommand
+Starting watch on killswitch C:\Users\phucd\AppData\Local\Temp\phucd\KillSwitches\cli
+Error from dns.lookup is null.
+Trying to handle SIGINT event. CLI overrides this behavior and does not allow handling SIGINT as this causes issues with Ctrl + C in terminal.
+The stackTrace of the location trying to handle SIGINT is:
+    at process.on (C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\lib\nativescript-cli.js:26:28)
+    at C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\node_modules\signal-exit\index.js:128:15
+    at Array.filter (<anonymous>)
+    at load (C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\node_modules\signal-exit\index.js:126:21)
+    at module.exports (C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\node_modules\signal-exit\index.js:36:5)
+    at Object.<anonymous> (C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\node_modules\proper-lockfile\lib\lockfile.js:331:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+spawn: C:\Program Files\nodejs\node.exe "C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\lib\detached-processes\cleanup-process.js" "C:\Users\phucd\AppData\Roaming\npm\node_modules\nativescript\lib\bootstrap.js"
+Initializing analytics statuses.
+Analytics statuses:  { TrackFeatureUsage: 'disabled', TrackExceptions: 'disabled' }
+User-Agent: tnsCLI/8.0.2 (Node.js 14.17.3; win32; x64)
+httpRequest: {
+  url: 'https://play.nativescript.org/api/shortenurl?longUrl=nsplay%3A%2F%2Fboot%3FinstanceId%3DrxlZahLHD%26pKey%3Dpub-c-d7893276-cc78-4d18-8ab0-becba06e43de%26sKey%3Dsub-c-3dad1ebe-aaa3-11e8-8027-363023237e0b%26template%3Dplay-ng%26hmr%3D1',
+  method: 'GET',
+  proto: 'https',
+  host: 'play.nativescript.org',
+  port: null,
+  path: '/api/shortenurl?longUrl=nsplay%3A%2F%2Fboot%3FinstanceId%3DrxlZahLHD%26pKey%3Dpub-c-d7893276-cc78-4d18-8ab0-becba06e43de%26sKey%3Dsub-c-3dad1ebe-aaa3-11e8-8027-363023237e0b%26template%3Dplay-ng%26hmr%3D1',
+  headers: {
+    Accept: 'application/json; charset=UTF-8, */*;q=0.8',
+    'User-Agent': 'tnsCLI/8.0.2 (Node.js 14.17.3; win32; x64)',
+    'Accept-Encoding': 'gzip,deflate'
+  },
+  encoding: null,
+  followAllRedirects: true
+}
+httpRequest: Sending:
+[no content]
+httpRequest: Done. code = 200
+httpRequest: {
+  url: 'https://play.nativescript.org/api/shortenurl?longUrl=nsplay%3A%2F%2Fboot%3FinstanceId%3DrxlZahLHD%26pKey%3Dpub-c-d7893276-cc78-4d18-8ab0-becba06e43de%26sKey%3Dsub-c-3dad1ebe-aaa3-11e8-8027-363023237e0b%26template%3Dplay-ng%26hmr%3D1',
+  method: 'GET',
+  proto: 'https',
+  host: 'play.nativescript.org',
+  port: null,
+  path: '/api/shortenurl?longUrl=nsplay%3A%2F%2Fboot%3FinstanceId%3DrxlZahLHD%26pKey%3Dpub-c-d7893276-cc78-4d18-8ab0-becba06e43de%26sKey%3Dsub-c-3dad1ebe-aaa3-11e8-8027-363023237e0b%26template%3Dplay-ng%26hmr%3D1',
+  headers: {
+    Accept: 'application/json; charset=UTF-8, */*;q=0.8',
+    'User-Agent': 'tnsCLI/8.0.2 (Node.js 14.17.3; win32; x64)',
+    'Accept-Encoding': 'gzip,deflate'
+  },
+  encoding: null,
+  followAllRedirects: true
+}
+httpRequest: Sending:
+[no content]
+httpRequest: Done. code = 200
+
+
+ Generating qrcode for url https://play.nativescript.org/s/mqfjnus.
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+
+# Use NativeScript Playground app and scan the QR code above to preview the application on your device.
+
+To scan the QR code and deploy your app on a device, you need to have the NativeScript Playground app:
+    App Store (iOS): https://itunes.apple.com/us/app/nativescript-playground/id1263543946?mt=8&ls=1
+    Google Play (Android): https://play.google.com/store/apps/details?id=org.nativescript.play
+
